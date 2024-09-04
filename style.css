@@ -1,0 +1,66 @@
+body {
+    background-color:#16423C;
+    font-family: "Nerko One", cursive;
+}
+h1 {
+    color: #6A9C89;
+    text-align: center;
+    margin: 50px auto;
+    font-size: 3rem;
+}
+.container {
+    background-color: #3e8b6ec5;
+    border-radius: 12px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 380px;
+    padding: 20px;
+}
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin: auto;
+}
+.button,
+.operator,
+.clear {
+    background-color: #16423C;
+    height: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 2rem;
+    color:#C4DAD2;
+    border: none;
+    transition: 0.3s all;
+}
+.clear {
+    width: 86px;
+    margin-left: 36px;
+    margin-right: 8px;
+}
+.button:hover,
+.clear:hover,
+.operator:hover {
+    background-color: #C4DAD2;
+    color: #16423C;
+}
+
+.screen {
+    background-color:#C4DAD2 ;
+    text-align: center;
+    justify-content: left;
+    width: 100%;
+    height: 52%;
+    cursor: default;
+    padding: 10px;
+    margin: auto 8px;
+    border-radius: 10px;
+    color: #16423C;
+    font-size: 2rem;
+    border: none;
+}
